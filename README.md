@@ -149,7 +149,7 @@ retail-inspired color palette (terracotta orange as the accent, deep
 teal as the base color) applied consistently across every visual, 
 rather than using default chart colors.
 
-**Live Dashboard:** [View on Power BI](YOUR_PUBLISHED_LINK_HERE)
+**Live Dashboard:** [View on Power BI](https://app.powerbi.com/view?r=eyJrIjoiNzc1NDE0OTMtMDMxOS00ZDk0LWFhNGQtYzE0MmJkOGMxMDVmIiwidCI6ImY2NTY4OGQ1LTAzOGMtNGNjZi1hYTVlLTYzNTljMjY0NTZiMiJ9)
 
 ### Page 1: Overview
 **Screenshot:** ![Power BI Page 1 Overview](screenshots/powerbi_page1_overview.png)
