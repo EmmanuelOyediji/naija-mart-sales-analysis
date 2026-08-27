@@ -107,14 +107,14 @@ trend that SQL hadn't surfaced.
 
 ### 1. Branch Revenue
 **Steps:** Built a PivotTable with `branch_name` in Rows and `revenue` in Values.
-**Screenshot:** `excel_branch_revenue.png`
+**Screenshot:** ![Branch Revenue](screenshots/excel_branch_revenue.png)
 **Insight:** Lagos (Ikeja) leads all branches at ₦93.8M, nearly double the 
 second-highest branch confirming the same ranking found in my SQL analysis 
 and validating the accuracy of both approaches.
 
 ### 2. Revenue by Category
 **Steps:** Built a PivotTable with `category` in Rows and `revenue` in Values.
-**Screenshot:** `excel_category_revenue.png`
+**Screenshot:** ![Revenue by Category](screenshots/excel_category_revenue.png)
 **Insight:** Home Appliances is the top revenue category (₦97.4M), followed 
 by Electronics (₦77.1M) matching my SQL findings exactly and reinforcing 
 that discount spend is well-aligned with the highest-revenue categories.
@@ -122,7 +122,7 @@ that discount spend is well-aligned with the highest-revenue categories.
 ### 3. Average Order Value by Branch
 **Steps:** Built a PivotTable with `branch_name` in Rows and `revenue` 
 (set to Average) in Values.
-**Screenshot:** `excel_avg_order_value.png`
+**Screenshot:** ![Average Order Value by Branch](screenshots/excel_avg_order_value.png)
 **Insight:** Port Harcourt has the highest average order value (₦173,460) 
 despite ranking third in total revenue showing that Lagos's lead is driven 
 by transaction volume, while Port Harcourt customers spend more per visit.
@@ -130,7 +130,7 @@ by transaction volume, while Port Harcourt customers spend more per visit.
 ### 4. Monthly Revenue Trend
 **Steps:** Extracted month from each transaction date, built a PivotTable 
 with `month` in Rows and `revenue` in Values, then visualized it as a line chart.
-**Screenshot:** `excel_monthly_trend.png`
+**Screenshot:** ![Monthly Revenue Trend](screenshots/excel_monthly_trend.png)
 **Insight:** Revenue stayed relatively flat through the first three quarters, 
 then rose sharply in Q4 peaking in December at ₦29.9M, nearly 2.4x higher 
 than the lowest month (July, ₦12.3M). This aligns with typical retail 
@@ -152,7 +152,7 @@ rather than using default chart colors.
 **Live Dashboard:** [View on Power BI](YOUR_PUBLISHED_LINK_HERE)
 
 ### Page 1: Overview
-**Screenshot:** `powerbi_page1_overview.png`
+**Screenshot:** ![Power BI Page 1 Overview](screenshots/powerbi_page1_overview.png)
 
 This page gives a high level summary for quick decision making:
 - 4 key metric cards: Total Revenue (₦221M), Total Orders (1,408), 
@@ -167,7 +167,7 @@ This is consistent with both the SQL and Excel findings, confirming the
 accuracy of the analysis across all three tools.
 
 ### Page 2: Trends and Deeper Analysis
-**Screenshot:** `powerbi_page2_trends.png`
+**Screenshot:** ![Power BI Page 2 Trends](screenshots/powerbi_page2_trends.png)
 
 This page allows deeper, interactive exploration:
 - A Monthly Revenue Trend line chart showing the Q4 seasonal spike
